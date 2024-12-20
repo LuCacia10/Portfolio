@@ -1,0 +1,213 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: inherit;
+  font-size: 20px;
+  color: #594539;
+  transition: all;
+}
+a:hover {
+  color: #000;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #253140;
+  text-align: center;
+}
+
+ul {
+  margin-right: 40px;
+}
+ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+ul li:hover {
+  text-align: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 0 5px rgba(26, 24, 24, 0.932);
+  text-transform: uppercase;
+}
+
+i {
+  height: 20px;
+  width: 20px;
+  color: #F2F2F2;
+  background-color: #253140;
+  padding: 10px 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 5px;
+}
+i:hover {
+  background-color: transparent;
+  color: #253140;
+}
+
+hr {
+  width: 80%;
+  margin-top: -10px;
+}
+
+body {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: #F2D0BD;
+  background-size: cover;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.inside {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.inside .left {
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  background-image: linear-gradient(90deg, rgb(243, 190, 190), white);
+  border-top-left-radius: 110px;
+  border-top-right-radius: 110px;
+  border-bottom-right-radius: 110px;
+  border-bottom-left-radius: 110px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.inside .right {
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+}
+.inside .right footer {
+  text-align: center;
+  background-color: #D9967E;
+  z-index: 2;
+}
+
+.etude {
+  margin: 100px 0;
+}
+
+.objectif {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0px;
+}
+.objectif .type {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 140px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(14, 13, 13, 0.178);
+  background-color: #faeded;
+}
+.objectif .type p {
+  font-size: 18.5px;
+  line-height: 10px;
+}
+.objectif .type ol {
+  text-align: center;
+  list-style-type: none;
+  margin-right: 50px;
+}
+.objectif .type:hover {
+  width: 230px;
+  height: 140px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgb(241, 232, 222);
+  -webkit-animation: forwards;
+  -webkit-animation-duration: 900ms;
+}
+
+.element {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+.element .first {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 50%;
+  margin-right: 20px;
+  background-color: #faeded;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(14, 13, 13, 0.178);
+}
+.element .first ol {
+  text-align: center;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.element .first:hover {
+  background-color: white;
+  box-sizing: content-box;
+  box-shadow: 0 0 10px rgb(250, 249, 248);
+}
+
+.menu {
+  align-items: center;
+}
+
+.form-image {
+  margin-left: 20%;
+}
+.form-image form {
+  width: 80%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.form-image form input, .form-image form textarea {
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: #f2f2f2;
+  border: 0;
+  outline: 0;
+  resize: none;
+  width: 100%;
+}
+
+.element-bouton {
+  background-color: rgb(231, 229, 229);
+  color: black;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  height: 40px;
+  width: 50%;
+  font-size: 17px;
+  cursor: pointer;
+  box-sizing: content-box;
+  box-shadow: 0 0 2px rgb(75, 102, 80);
+}
+
+.Image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Image img {
+  width: 70%;
+  height: 200px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

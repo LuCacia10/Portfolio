@@ -1,0 +1,57 @@
+@import "variable.scss";
+@import "color.scss";
+a{
+    text-decoration: none;
+    cursor: pointer;
+    text-transform: inherit;
+    font-size: $primary-fs;
+    color: $dark;
+    transition: all;
+    &:hover{
+        color: $black;
+        line-height: 20px;
+       
+    }
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color: $blue;
+    text-align: center;
+}
+ul {
+    margin-right: 40px;
+        & li{
+            list-style: none;
+            padding: 10px 0;
+            &:hover{
+                text-align: center;
+                align-items: center;
+                border: 1px solid transparent ;
+                border-radius: 10px ;
+                box-sizing: border-box;
+                box-shadow:0 0 5px rgba(26, 24, 24, 0.932);
+                text-transform: uppercase;
+            }
+            }  
+}
+i{
+    height: 20px;
+    width: 20px;
+    color: $white;
+    background-color:$blue;
+    padding: 10px 10px ;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , 0.2);
+    margin: 20px 5px;
+    
+    
+    &:hover{
+        background-color: transparent;
+        color: $blue;
+    }
+}
+
+hr{
+    width: 80%;
+    margin-top: -10px;
+}
